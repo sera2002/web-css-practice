@@ -1,78 +1,184 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Jacked</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
     <header>
       <div id="header">
-        <h1 class="color-white">Jacked<span class="color-blue">.</span></h1>
+        <img src="./images/logo.png" alt="JACKED" />
         <nav class="menu">
-          <div class="menu-item"><a href="#home">HOME</a></div>
-          <div class="menu-item"><a href="#about">ABOUT</a></div>
-          <div class="menu-item"><a href="#contact">CONTACT US</a></div>
+          <div class="item"><a href="#home">HOME</a></div>
+          <div class="item"><a href="#about">ABOUT</a></div>
+          <div class="item"><a href="#contact">CONTACT US</a></div>
         </nav>
       </div>
     </header>
     <article id="content">
       <section id="home">
-        <div
-          class="temp"
-          style="
-            background-color: #05aff2;
-            width: 100%;
-            height: 400px;
-            color: #f2f2f2;
-            padding-top: 100px;
-          "
-        >
-          <p>Present your Templates with Style</p>
-          <h1>Eyecatching. Awesome. Pixelperfect.</h1>
+        <div class="overview">
+          <div class="text">
+            <span class="subtitle">Present your Templates with Style</span>
+            <span class="title">Eyecatching. Awesome. Pixelperfect.</span>
+            <p class="content">
+              Whether you require large banners and posters to promote your
+              company or some more subtle letter heads and business cards, our
+              highly skilled graphic designers will produce the perfect article
+              for you.
+            </p>
+          </div>
+          <div class="imgContainer"></div>
+          <img src="./images/left_thin_arrow.png" id="arrow-left" />
+          <img src="./images/right_thin_arrow.png" id="arrow-right" />
         </div>
         <div class="features">
-          <div class="features-item">
-            <span class="item-title">Several Colour Options</span>
-            <p class="item-content">
-              This is content. I don't know what to write. ha ha ha. This is
-              content. I don't know what to write. ha ha ha. This is content. I
-              don't know what to write. ha ha ha.
+          <div class="item">
+            <img src="./images/card_image_1.png" alt="card_image_1" />
+            <span class="title">Several Colour Options</span>
+            <p class="content">
+              We will put together a detailed and specific style guide that
+              covers all areas of your brand to ensure that anything produced in
+              the future is on brand.
             </p>
-            <button>More info</button>
+            <button class="moreInfo">More info</button>
           </div>
-          <div class="features-item">
-            <span class="item-title">Userfriendly Theme Options</span>
-            <p class="item-content">
-              This is content. I don't know what to write. ha ha ha. This is
-              content. I don't know what to write. ha ha ha. This is content. I
-              don't know what to write. ha ha ha.
+          <div class="item">
+            <img src="./images/card_image_2.png" alt="card_image_2" />
+            <span class="title">Userfriendly Theme Options</span>
+            <p class="content">
+              Whether you require large banners and posters to promote your
+              company or some more subtitle letter heads and business cards, our
+              highly skilled designers.
             </p>
-            <button>More info</button>
+            <button class="moreInfo">More info</button>
           </div>
-          <div class="features-item">
-            <span class="item-title">Unlimited Features</span>
-            <p class="item-content">
-              This is content. I don't know what to write. ha ha ha. This is
-              content. I don't know what to write. ha ha ha. This is content. I
-              don't know what to write. ha ha ha.
+          <div class="item">
+            <img src="./images/card_image_3.png" alt="card_image_3" />
+            <span class="title">Unlimited Features</span>
+            <p class="content">
+              Using the outcomes from the Company Analysis, we will put together
+              a plan for the most effective marketing strategy to get the best
+              results for your business.
             </p>
-            <button>More info</button>
+            <button class="moreInfo">More info</button>
           </div>
         </div>
         <div class="projects">
-          <span class="projects-title">OUR LASTEST PROJECTS</span>
-          <div class="projects-container">
-            <div class="projects-item">A</div>
-            <div class="projects-item">B</div>
-            <div class="projects-item">C</div>
-            <div class="projects-item">D</div>
-            <div class="projects-item">E</div>
-            <div class="projects-item">F</div>
-            <div class="projects-item">G</div>
-            <div class="projects-item">H</div>
-            <div class="projects-item">I</div>
-            <div class="projects-item">K</div>
+          <span class="title">OUR LASTEST PROJECTS</span>
+          <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item">
+              <span class="title">Untitled Project 01</span>
+              <span class="description">Logodesign, Webdesign, Graphics</span>
+              <div class="likes">
+                <img src="./images/heart.png" alt="heart_icon" />
+                <span>214 Likes</span>
+              </div>
+            </div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
           </div>
+        </div>
+        <div class="boards">
+          <div class="mainText">
+            <span class="title">Getting Started with Wordpress</span>
+            <p class="content">
+              We work with clients big and small across a range of sectors and
+              we utilise all forms of media to get your name out there in a way
+              that's right for you. We believe that analysis of your company and
+              your customers is key in responding effectively to your
+              promotional needs and we will work with you.
+            </p>
+            <div class="leftAlignment">
+              <button class="moreInfo">Read More</button>
+            </div>
+          </div>
+          <div class="bulletin">
+            <div class="title">
+              <span>Frequently Asked</span>
+              <div class="count">5</div>
+            </div>
+            <hr />
+            <div class="container">
+              <span class="item">How to change the website colour?</span>
+              <hr />
+              <span class="item">Is my website ready for wordpress?</span>
+              <hr />
+              <span class="item">Which version is the lastest for WP?</span>
+              <hr />
+              <span class="item">Could I translate the site?</span>
+              <hr />
+              <span class="item last">How do I use wordpress plugins?</span>
+            </div>
+          </div>
+          <div class="bulletin">
+            <div class="title">
+              <span>Lastest Blogposts</span>
+              <div class="count">9</div>
+            </div>
+            <hr />
+            <div class="container">
+              <span class="item">25 Best Wordpress Themes 2014</span>
+              <hr />
+              <span class="item">Awesome Freebies Weekend # 22</span>
+              <hr />
+              <span class="item">Design a website in 10 Steps</span>
+              <hr />
+              <span class="item">How to install a full Wordpress Theme</span>
+              <hr />
+              <span class="item last">Best Free Iconsets for Webdesigner</span>
+            </div>
+          </div>
+        </div>
+        <div class="quotation">
+          <div class="text">
+            <img src="./images/_.png" alt="double quotation mark" />
+            <p>
+              "Our teams are up to date with the lastest technologies, media
+              trends and are keen to prove themseleves in this industry and
+              that's what you want from an advertising agency, not someone who
+              is relying on the same way of doing things that worked 10 years, 5
+              years or even a year ago."
+            </p>
+            <span
+              >Jonathan Doe -
+              <span class="color-navy"
+                >Webdesigner & Interpreneur @Creative Studios</span
+              >
+            </span>
+          </div>
+          <div class="peoples"></div>
+        </div>
+        <div class="clients">
+          <span class="title">SOME OF OUR CLIENTS</span>
+          <div class="container">
+            <div class="item"><img src="./images/logo_1.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_2.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_3.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_4.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_3.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_1.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_4.png" alt="logo" /></div>
+            <div class="item"><img src="./images/logo_2.png" alt="logo" /></div>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright @ 2014 by KL-Webmedia | ALL rights reserved
         </div>
       </section>
       <section id="about"></section>
